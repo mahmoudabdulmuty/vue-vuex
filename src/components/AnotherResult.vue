@@ -1,15 +1,18 @@
 <template>
   <div>
-    {{ counter }}
+    <h2>
+      {{ doubleCounter }}
+    </h2>
+    <h2>
+      {{ stringCounter }}
+    </h2>
   </div>
 </template>
 
 <script>
 export default {
   computed: {
-    counter() {
-      return this.$store.getters.double;
-    },
+    ...mapGetters(['doubleCounter', 'stringCounter']),
   },
 };
 </script>

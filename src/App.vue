@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <another-result />
-    <result />
     <counter />
+    <result />
   </div>
 </template>
 

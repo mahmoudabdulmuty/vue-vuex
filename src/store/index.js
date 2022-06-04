@@ -8,8 +8,14 @@ export const store = new Vuex.Store({
     counter: 0,
   },
   getters: {
-    double: (state) => {
+    doubleCounter: (state) => {
       return state.counter * 2;
     },
+    stringCounter: (state) => {
+      return state.counter + ' clicks';
+    },
   },
+  mutations: {
+    
+  }
 });
