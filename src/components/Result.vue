@@ -6,9 +6,6 @@
     <h2>
       {{ stringCounter }}
     </h2>
-    <h4>
-      {{ ourOwnComputed }}
-    </h4>
   </div>
 </template>
 
